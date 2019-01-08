@@ -5,7 +5,7 @@ var T = new twit(config);
 
 
 
-console.log('**********bot my baby one more time lol********')
+console.log('**********bot me baby one more time********')
 
 // var retweet = function() {
 //     var params = {
@@ -16,16 +16,18 @@ console.log('**********bot my baby one more time lol********')
 // }
 
 var tweet = {
-    status: '#hiphop, #bestrapper, #Goat, #topfive, #cultcure, #clutcher, #Kicks, #kotd'
+    status: 'hello world, 1 love'  //paramater 
 }
 
-T.post('statuses/update', tweet, tweeted);
+T.post('statuses/update', tweet, tweeted);    
 
 function tweeted(er, data, response) {
-    if(err) {
-        console.log("noooooooooooœ!");
-    } else {
+    // if(err) {
+    //     console.log("noooooooooooœ!");
+    // } else {
         console.log(data);
-    }
+    // }
     
 }
+
+
